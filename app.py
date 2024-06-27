@@ -8,7 +8,7 @@ load_dotenv()
 # Initialize Flask app
 app = Flask(__name__)
 
-genai.configure(api_key='AIzaSyClx4HUQc2X3rCCx5rEvmNJSWokpK_id2g')
+genai.configure(api_key=os.getevn("GEMINI_API_KEY"))
 
 # Define generation configuration for the AI model
 generation_config = {
