@@ -8,7 +8,7 @@ This project is a Flask web application that integrates with Google's Generative
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/medical-bot-flask.git
+   git clone https://github.com/iamshriharshan/Health-Chatbot.git
 
 2. Make sure to install all the libraries
 
